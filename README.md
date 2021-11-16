@@ -206,18 +206,18 @@ Load balancing ensures that the application will be highly available, in additio
 
 What aspect of security do load balancers protect? What is the advantage of a jump box?
 
-Load balancers protect the system from DDoS attacks by shifting attack traffic.  A Jump box gives a user access from a single node that can be secured and monitored.
+- Load balancers protect the system from DDoS attacks by shifting attack traffic.  A Jump box gives a user access from a single node that can be secured and monitored.
 
 
 Integrating an ELK server allows users to easily monitor the vulnerable VMs for changes to the data and system logs.
 
 What does Filebeat watch for?
 
-The filebeat watches for any information in the file system that has been changed and when the change occurred.
+- The filebeat watches for any information in the file system that has been changed and when the change occurred.
 
 What does Metricbeat record?
 
-Metricbeat takes metrics and statistics collected from the server and sends them to the output selected by the user.
+- Metricbeat takes metrics and statistics collected from the server and sends them to the output selected by the user.
 
 The configuration details of each machine may be found below.
 | Name Of VM | Function | IP:Private | IP:Public |	OS |
@@ -261,11 +261,11 @@ A summary of the access policies in place can be found in the table below.
 
 Elk Configuration
 
-Ansible was used to automate configuration of the ELK machine. No configuration was performed manually, which is advantageous because Ansible allows you to quickly and easily deploy applications. 
+- Ansible was used to automate configuration of the ELK machine. No configuration was performed manually, which is advantageous because Ansible allows you to quickly and easily deploy applications. 
 
 What is the main advantage of automating configuration with Ansible?
 
-You do not need to write custom scripts to automate your system or deployments. Ansible requires you to cerate explained tasks via playbook.yml files and then deploys them to all of your machines that are designated within the host file. Ansible also figures out how to get each system to your desired state through the playbook instructions.
+- You do not need to write custom scripts to automate your system or deployments. Ansible requires you to cerate explained tasks via playbook.yml files and then deploys them to all of your machines that are designated within the host file. Ansible also figures out how to get each system to your desired state through the playbook instructions.
 
 
 
