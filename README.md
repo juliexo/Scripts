@@ -182,13 +182,14 @@ o	5044:5044
 The following screenshot displays the result of running `docker ps` after successfully configuring the ELK instance.
 
 Elk Server
-  
+![alt text](https://github.com/juliexo/Scripts/blob/main/images/ELKServerScreenshot.png)  
 
 Web-1
+![alt text](https://github.com/juliexo/Scripts/blob/main/images/Web1Screenshot.png)
  
 
 Web-2
- 
+![alt text](https://github.com/juliexo/Scripts/blob/main/images/Web2Screenshot.png)
 
 
 
@@ -225,31 +226,31 @@ In order to use the playbook, you will need to have an Ansible control node alre
 SSH into the control node and follow the steps below:
 
 -	Copy the Elk Server Config file to /etc/ansible
- 
+![alt text](https://github.com/juliexo/Scripts/blob/main/images/ELKList.png)
 
 
 -	Update the hosts file to include address of your webservers and ELK Private IP address:
- 
+![alt text](https://github.com/juliexo/Scripts/blob/main/images/Hostfile.png)
 
 -	Update the filebeat-config.yml and the metricbeat-config.yml to designate the address of the ELK server:
 o	output.elasticsearch:
 o	output.kibana:
 
 -	Filebeat-config 
- 
- 
+![alt text](https://github.com/juliexo/Scripts/blob/main/images/filebeatconfig.png)
+![alt text](https://github.com/juliexo/Scripts/blob/main/images/filebeatconfig2.png)
 
 
 
 
 -	Metricbeat-config
- 
- 
+![alt text](https://github.com/juliexo/Scripts/blob/main/images/metricbeatconfig.png)
+![alt text](https://github.com/juliexo/Scripts/blob/main/images/metricbeatconfig2.png) 
 
 -	Run the filebeat playbook, and navigate to kibana, under “add data logs/System_logs” to check that the installation worked as expected.  
-
+![alt text](https://github.com/juliexo/Scripts/blob/main/images/modulestatus.png)
 -	Run the metricbeat playbook, and navigate to Kibana under “add metric data/Docker” to check that the installation worked as expected.  
-
+![alt text](https://github.com/juliexo/Scripts/blob/main/images/modulestatus2.png)
 Which file is in the playbook?
 -	filebeat-playbook.yml
 -	metricbeat-playbook.yml
