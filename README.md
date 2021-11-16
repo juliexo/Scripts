@@ -4,7 +4,7 @@ Azure Elk Deployment
 
 The files in this repository were used to configure the network depicted below.
 
-Project 1: ReadTeam Diagram
+Project 1: RedTeam Diagram
 
  ![alt text](https://github.com/juliexo/Scripts/blob/main/diagrams/Red_Team_Diagram.png)
 
