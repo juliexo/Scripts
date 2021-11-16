@@ -135,12 +135,13 @@ Which machine did you allow to access your ELK VM? What was its IP address?_
 
 A summary of the access policies in place can be found in the table below.
 
-Name	Publicly Accessible	Allowed IP Address
-RedTeamVM1	No	Workstation Public IP on SSH 22
-Web 1 	No	10.2.0.5 via SSH 22
-Web 2 	No 	10.2.0.6 via SSH 22
-ELK-VM/ELK Server	No	Workstation Public IP on TCP 5601
-Load Balancer	No	Workstation Public IP on HTTP 80
+| Name |	Publicly Accessible |	Allowed IP Address |
+| --- | :---: | ---: |
+| RedTeamVM1	| No	| Workstation Public IP on SSH 22 |
+| Web 1 |	No	| 10.2.0.5 via SSH 22 |
+| Web 2 |	No |	10.2.0.6 via SSH 22 |
+| ELK-VM/ELK Server	| No	| Workstation Public IP on TCP 5601 |
+| Load Balancer	| No |	Workstation Public IP on HTTP 80 |
 
 Elk Configuration
 
@@ -266,17 +267,18 @@ Which URL do you navigate to in order to check that the ELK server is running?
 
 Terminal Commands Needed:
 | Command |	Purpose |
-SSH -I [name of keygen file] (user@ipaddress)	Remote into your JumpBox Desktop
-SSH-Keygen	Generate Public and Private keys
-sudo apt install docker.io	Install Docker
-sudo service docker start	Start the Docker service
-sudo docker container list -a	Show all containers services
-sudo docker start <container_name>	Start the container specified
-sudo docker attach <container_name>	Remote into the specified container
-ansible -m ping all	Check the connection of ansible containers
-ansible-playbook <playbook.yml_file>	Run a playbook.yml file
-nano <name_of_playbook.yml>	Create an Ansible playbook
-sudo docker pull cyberxsecurity/ansible bash	Run and create a docker image
-sudo docker ps -a 	List all active/inactive containers
+| --- | :---: |
+| SSH -I [name of keygen file] (user@ipaddress) |	Remote into your JumpBox Desktop
+| SSH-Keygen	| Generate Public and Private keys |
+| sudo apt install docker.io |	Install Docker |
+| sudo service docker start |	Start the Docker service |
+| sudo docker container list -a	| Show all containers services |
+| sudo docker start <container_name> |	Start the container specified |
+| sudo docker attach <container_name>	| Remote into the specified container |
+| ansible -m ping all	| Check the connection of ansible containers |
+| ansible-playbook <playbook.yml_file>	| Run a playbook.yml file |
+| nano <name_of_playbook.yml>	| Create an Ansible playbook |
+| sudo docker pull cyberxsecurity/ansible bash	| Run and create a docker image |
+| sudo docker ps -a | List all active/inactive containers |
 
 
