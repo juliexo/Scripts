@@ -382,10 +382,7 @@ Which URL do you navigate to in order to check that the ELK server is running?
 -	http:[Elk.VM.IP]:5601/app/kibana where the [Elk.VM.IP] is the Public IP address of the ELK server.
 
 
-<p>
- <details>
-  <summary>Terminal Commands Needed:</summary>
-  <pre><code>
+Terminal Commands Needed:
 | Command |	Purpose |
 | --- | :---: |
 | SSH -I [name of keygen file] (user@ipaddress) |	Remote into your JumpBox Desktop |
@@ -400,8 +397,6 @@ Which URL do you navigate to in order to check that the ELK server is running?
 | nano <name_of_playbook.yml>	| Create an Ansible playbook |
 | sudo docker pull cyberxsecurity/ansible bash	| Run and create a docker image |
 | sudo docker ps -a | List all active/inactive containers |
-</code></pre>
-</details>
-</p>
+
 
 
