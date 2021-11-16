@@ -104,13 +104,14 @@ What does Metricbeat record?
 Metricbeat takes metrics and statistics collected from the server and sends them to the output selected by the user.
 
 The configuration details of each machine may be found below.
-Name Of VM	Function	IP: Private	IP: Public	OS
-RedTeamVM1	Gateway	10.2.0.4	52.249.217.162	Linux
-Web 1 	Web Server	10.2.0.5	Static	Linuc
-Web 2 	Web Server	10.2.0.6	Static	Linux
-RedTeamLB	Load Balancer	Static	Static	Linux
-Elk-VM	Elk Server	10.3.0.5	40.83.172.96	Linux
-Workstation	Access Control	External	External	Windows 10
+| Name Of VM | Function | IP:Private | IP:Public |	OS |
+| --- | :---: | :---: | :---: | :---: |
+| RedTeamVM1 |	Gateway |	10.2.0.4 |	52.249.217.162 | Linux |
+| Web 1 | Web Server	| 10.2.0.5	| Static	| Linux |
+| Web 2 | Web Server	| 10.2.0.6	| Static	| Linux |
+| RedTeamLB | Load Balancer | Static | Static	| Linux |
+| Elk-VM |	Elk Server |	10.3.0.5 |	40.83.172.96 |	Linux |
+| Workstation	| Access | Control	| External	| External	| Windows 10 |
 
 
 
@@ -264,7 +265,7 @@ Which URL do you navigate to in order to check that the ELK server is running?
 -	http:[Elk.VM.IP]:5601/app/kibana where the [Elk.VM.IP] is the Public IP address of the ELK server.
 
 Terminal Commands Needed:
-Command	Purpose
+| Command |	Purpose |
 SSH -I [name of keygen file] (user@ipaddress)	Remote into your JumpBox Desktop
 SSH-Keygen	Generate Public and Private keys
 sudo apt install docker.io	Install Docker
