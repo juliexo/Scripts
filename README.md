@@ -211,7 +211,7 @@ Load balancers protect the system from DDoS attacks by shifting attack traffic. 
 
 Integrating an ELK server allows users to easily monitor the vulnerable VMs for changes to the data and system logs.
 
-What does Filebeat watch for?_
+What does Filebeat watch for?
 
 The filebeat watches for any information in the file system that has been changed and when the change occurred.
 
