@@ -388,7 +388,7 @@ Which URL do you navigate to in order to check that the ELK server is running?
   <pre><code>
 | Command |	Purpose |
 | --- | :---: |
-| SSH -I [name of keygen file] (user@ipaddress) |	Remote into your JumpBox Desktop
+| SSH -I [name of keygen file] (user@ipaddress) |	Remote into your JumpBox Desktop |
 | SSH-Keygen	| Generate Public and Private keys |
 | sudo apt install docker.io |	Install Docker |
 | sudo service docker start |	Start the Docker service |
